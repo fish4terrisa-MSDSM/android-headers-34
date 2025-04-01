@@ -1,0 +1,11 @@
+--- libs/nativewindow/include/android/data_space.h
++++ libs/nativewindow/include/android/data_space.h
+@@ -38,7 +38,7 @@ __BEGIN_DECLS
+ /**
+  * ADataSpace.
+  */
+-enum ADataSpace : int32_t {
++enum ADataSpace {
+     /**
+      * Default-assumption data space, when not explicitly specified.
+      *
