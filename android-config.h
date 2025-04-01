@@ -20,7 +20,11 @@
 */
 
 #include <android-version.h>
-
+#define __BIONIC_VERSIONER
+#define _Nonnull
+#define _Nullable
+#define IMPLEMENTED_IN(x)
+#define __INTRODUCED_IN(x)
 /* CONFIG GOES HERE */
 
 #endif
